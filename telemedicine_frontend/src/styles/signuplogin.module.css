@@ -1,0 +1,7 @@
+.container
+{
+    overflow: hidden;
+    background-image: url('../../public/assets/signup_login_bg.jpg');
+    background-size:cover;
+    height: 77.25vh;
+}

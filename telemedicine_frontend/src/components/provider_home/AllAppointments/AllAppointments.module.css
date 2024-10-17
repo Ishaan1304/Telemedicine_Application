@@ -1,0 +1,58 @@
+.appointmentsContainer {
+  padding: 20px;
+  background-color: white;
+}
+
+.appointmentCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.appointmentCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.appointmentCard.rescheduled {
+  background-color: #cbf38c;
+  border: 1px solid black;
+}
+
+.cancelled {
+  background-color: rgb(252, 152, 152);
+  color: white;
+  border: 1px solid black;
+}
+
+.appointmentTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+.appointmentTitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.appointmentCard p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.appointmentCard strong {
+  color: #333;
+}
+
+
+

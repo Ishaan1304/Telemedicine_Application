@@ -1,0 +1,6 @@
+.contentDiv {
+    width: 82vw;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fff8e1;
+  }

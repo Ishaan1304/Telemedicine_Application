@@ -1,0 +1,88 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.sliderContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sliderContent {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; 
+  margin-right: 20px; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: 1px solid black;
+}
+
+.card:hover { 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  background-color: #ccc;
+}
+
+.card a {
+  display: inline-block;
+  color: #0070f3;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #005bb5;
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
+}
+
+.navButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

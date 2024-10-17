@@ -1,0 +1,56 @@
+.sliderContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.sliderWrapper {
+    margin-left: 30px;
+    overflow: hidden;
+    width: 95%;
+    justify-content: center;
+}
+
+.sliderContent {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    min-width: calc(100% * (totalItems / itemsPerSlide));
+}
+
+.sliderItem {
+    flex: 0 0 33.333%; 
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center; 
+}
+
+.prevButton,
+.nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.prevButton {
+    left: 0px;
+}
+
+.nextButton {
+    right: 0px;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+    background-color: #0056b3;
+}

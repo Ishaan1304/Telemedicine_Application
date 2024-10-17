@@ -1,0 +1,88 @@
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .sliderContent {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid black;
+  }
+  
+  .card:hover {
+    
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: rgb(235, 231, 231);
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navButton:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+
+
+  .linkContainer {
+    border: 1px solid black;
+    margin:5px;
+    padding: 2px;
+    background-color: rgb(19, 199, 19);
+    border-radius: 25px;
+  }
+
+  .linkContainer:hover {
+    border: 1px solid black;
+    margin:5px;
+    padding: 2px;
+    background-color: green;
+    border-radius: 25px;
+  }
+
+  .availSlots{
+    color: white;
+    text-decoration: none;
+  }
+  

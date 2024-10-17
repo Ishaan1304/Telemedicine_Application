@@ -1,0 +1,49 @@
+.userList {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .accordionItem {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordionHeader {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordionHeaderActive {
+    background-color: #e0e0e0;
+  }
+  
+  .accordionIcon {
+    font-size: 18px;
+    transition: transform 0.3s;
+  }
+  
+  .accordionIconActive {
+    transform: rotate(180deg);
+  }
+  
+  .accordionContent {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .userCard {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .userCard p {
+    margin: 5px 0;
+  }

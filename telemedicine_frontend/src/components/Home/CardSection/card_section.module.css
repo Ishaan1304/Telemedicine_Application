@@ -1,0 +1,44 @@
+.cardSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.cardParent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headingdiv {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+  padding-top: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.heading {
+  margin-bottom: 20px;
+
+  background: -webkit-linear-gradient(#ff0000, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background: -moz-linear-gradient(#ff0000, #0000ff);
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  background: -ms-linear-gradient(#ff0000, #0000ff);
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent; 
+
+  background: linear-gradient(#ff0000, #0000ff);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}

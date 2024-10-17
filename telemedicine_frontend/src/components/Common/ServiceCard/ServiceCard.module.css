@@ -1,0 +1,36 @@
+/* components/ServiceCard.module.css */
+
+.card {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: slideIn 0.5s forwards;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #e0e0e0; /* Light border for a subtle effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animation-delay {
+    animation-delay: var(--delay);
+}
+
+/* Adding styles for typography */
+.title {
+    color: #4a90e2; /* Blue for titles */
+}
+
+.description {
+    color: #d5006d; /* Baby pink for descriptions */
+}

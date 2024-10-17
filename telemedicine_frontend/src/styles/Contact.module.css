@@ -1,0 +1,95 @@
+.main {
+    padding: 1em;
+    height: 77.25vh;
+    background-image: url('../../public/assets/contact-us.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceInfo
+{
+    width: 500px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -1px 1px 0 #ffffff,
+                         1px 1px 0 #ffffff,
+                         1px -1px 0 #ffffff,
+                         -1px -1px 0 #ffffff;
+                         margin-right: 80px;
+}
+
+.contactUs {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    background-color: white;
+    height: 60vh;
+    opacity: 90%;
+}
+
+.contactUs h2 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.contactUs p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.contactForm label {
+    margin-top: 0;
+    font-size: 1.0em;
+    color: #333;
+}
+
+.contactForm input, .contactForm textarea {
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: none;
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submitButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0053ac;
+}
+
+.thankYouMessage {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    color: #007BFF;
+}

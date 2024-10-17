@@ -1,0 +1,16 @@
+.mainContainer
+{
+  margin-top: 0px;
+}
+
+.componentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.messagesSection {
+  display: flex;
+  justify-content:space-around
+}

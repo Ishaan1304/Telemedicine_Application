@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .appointmentsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .appointmentCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .appointmentImage {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .appointmentTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0070f3;
+  }
+  
+  .booked {
+    background-color:white; 
+  }
+  
+  .rescheduled {
+    background-color: #cbf38c; 
+  }
+  
+  .cancelled {
+    background-color: #fc9898; 
+  }
+  
+  .noAppointments {
+    font-size: 18px;
+    color: #666;
+  }
+  

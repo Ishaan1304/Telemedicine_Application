@@ -1,0 +1,67 @@
+.message_table_container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.message_table_header {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.table_wrapper {
+  overflow-x: auto; 
+}
+
+
+.message_table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.message_table_header_row {
+  background-color: #007bff;
+  color: white;
+}
+
+
+.message_table_header_cell {
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.message_table_row {
+  transition: background-color 0.3s;
+}
+
+.message_table_row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.message_table_row:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.message_table_row:hover {
+  background-color: #e6f7ff;
+}
+
+
+.message_table_cell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

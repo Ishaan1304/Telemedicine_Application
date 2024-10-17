@@ -1,0 +1,86 @@
+
+.patientHome {
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 0;
+    margin: auto;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .carouselContainer {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .appointmentsSection, .messagesSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    color: #0070f3;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+  }
+  
+  .pageContainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pageTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+
+
+  @media (max-width: 768px) {
+    .patientHome {
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  }
+  

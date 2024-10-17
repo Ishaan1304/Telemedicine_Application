@@ -1,0 +1,23 @@
+.card {
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 240px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.heading {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.description {
+  color: #252424;
+  margin-top: 8px;
+  padding: 0 16px;
+  font-size: 24px;
+}
+
+
